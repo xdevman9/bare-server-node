@@ -1,4 +1,4 @@
-import { createServer } from 'bare-server-node';
+import { createServer } from '../lib/bare-server-node.js';
 
 export const onRequest = async (context) => {
   const server = createServer();
